@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@1,700&display=swap');
+body {
+  background-color: #435058;
+  font-family: 'Ubuntu Mono', monospace;
+}
+.App {
+  background-color: #ecf0f1;
+  width: 500px;
+  height: 500px;
+  margin:50px auto;
+  border: 1px solid #45a049;
+  border-radius: 15px;
+  padding: 20px;
+}
+.List {
+  height: 330px;
+}
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #45a049;
+}
+li {
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px ;
+  font-weight: 700;
+  font-size: 18px;
+}
+ul{
+  padding: 0;
+}
